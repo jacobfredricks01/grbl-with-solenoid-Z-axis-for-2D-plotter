@@ -3,4 +3,4 @@ GRBL version 1.1 but with a binary Z-axis that uses PWM from digital pin 11 on a
 
 Copied from https://github.com/bdring/Grbl_Pen_Servo with slight modifications.  
 
-In the spindle.c file there are 2 definitions, "pen_servo_up" and "pen_servo_down" these values are directly related to the PWM output of digital pin 11 on an Arduino UNO.  
+In the spindle.c file there are 2 definitions, "pen_servo_up" and "pen_servo_down" these values are directly related to the PWM output of digital pin 11 on an Arduino UNO and are interpreted binarily based on a threshold Gcode value.
